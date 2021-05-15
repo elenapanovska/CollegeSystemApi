@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CollegeSystem.DataAccess\CollegeSystem.Repositories.csproj" />
+    <ProjectReference Include="..\CollegeSystem.DataModels\CollegeSystem.DataModels.csproj" />
+    <ProjectReference Include="..\CollegeSystem.Models\CollegeSystem.Models.csproj" />
+  </ItemGroup>
+
+</Project>
